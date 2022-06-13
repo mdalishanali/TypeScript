@@ -1,3 +1,4 @@
+"use strict";
 // never
 function generateError(message, code) {
     throw { message: message, errorCode: code };

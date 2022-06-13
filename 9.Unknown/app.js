@@ -1,8 +1,9 @@
+"use strict";
 // the unknown types
 // unknown ---- throws and error line --9
 // but any ---- dont throw error
-var userInput;
-var userName;
+let userInput;
+let userName;
 userInput = 5;
 userInput = "Alishan";
 if (typeof userInput === "string") {
